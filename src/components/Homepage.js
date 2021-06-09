@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import './styles/home.scss'
 
-const Homepage = () => {
+const Homepage = (props) => {
     const [coder, setcoder] = useState("<coder/>")
+    console.log(props);
     return (
         <div>
             <div className="container">

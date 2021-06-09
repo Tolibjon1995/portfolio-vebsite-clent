@@ -6,7 +6,8 @@ import './components/styles/app.scss'
 import Navbars from "./components/Navbars";
 
 
-function App() {
+function App(props) {
+  console.log(props.historiy, "nimadir");
   return (
     <div>
     

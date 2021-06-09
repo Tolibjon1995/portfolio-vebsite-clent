@@ -10,7 +10,7 @@ const Navbars = (props) => {
   const [collapsed, setCollapsed] = useState(true);
 
   const toggleNavbar = () => setCollapsed(!collapsed);
-  console.log(props);
+  
   return (
     <div className="nav-color">
     <div className='container'>
