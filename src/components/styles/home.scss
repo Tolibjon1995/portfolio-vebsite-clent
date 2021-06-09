@@ -2,20 +2,133 @@ h1{
     font-size: 5rem;
     margin-top: 20px;
 }
+
+.gap{
+    .img-bloc{
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        overflow: hidden !important;
+        position: absolute;
+        top: 10%;
+        left: calc(50% - 400px / 2);
+        
+        @media (max-width: 772px) {
+            width: 200px;
+            height: 200px;
+            left: calc(50% - 200px /2);
+        }
+    }
+}
 .animatsya{
     width: 500px;
     height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #000;
+    // border: 2px solid #000;
     border-radius: 50%;
     margin: auto;
-    .img-bloc{
-        width: 400px;
-        height: 400px;
-        border-radius: 50%;
-        overflow: hidden !important;
-        margin: auto;
+    position: relative;
+    animation: animate 20s linear infinite;
+    
+    @media (max-width: 772px) {
+        width: 300px;
+        height: 300px;
     }
+    
+    .anim{
+        width: 100px;
+        height: 100px;
+        @media (max-width: 772px) {
+            width: 50px;
+            height: 50px;
+        }
+    }
+    
+    .html{
+        position: absolute;
+        top: 0;
+        left: -20%;
+        @media (max-width: 772px) {
+            left: -10%;
+        }
+    }
+    .boot{
+        position: absolute;
+        left: -126px;
+        top: 40%;
+        @media (max-width: 772px) {
+            left: -25%;
+        }
+    }
+    .sass{
+        position: absolute;
+        left: -70px;
+        bottom: 0;
+        @media (max-width: 772px) {
+            left: -10%;
+        }
+    }
+    .jc{
+        position: absolute;
+        top: 10px;
+        right: -20%;
+        @media (max-width: 772px) {
+            right: -10%;
+        }
+    }
+    .react{
+        position: absolute;
+        top: 40%;
+        right: -126px;
+        @media (max-width: 772px) {
+            right: -25%;
+        }
+    }
+    .redux{
+        position: absolute;
+        right: -70px;
+        bottom: 5px;
+        @media (max-width: 772px) {
+            right: -10%;
+        }
+    }
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    10%{
+        transform: rotate(5deg);
+    }
+    20%{
+        transform: rotate(-5deg);
+    }
+    30%{
+        transform: rotate(5deg);
+    }
+    40%{
+        transform: rotate(-5deg);
+    }
+    50%{
+        transform: rotate(5deg);
+    }
+    60%{
+        transform: rotate(-5deg);
+    }
+    70%{
+        transform: rotate(5deg);
+    }
+    80%{
+        transform: rotate(-5deg);
+    }
+    90%{
+        transform: rotate(5deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+ 
+    
 }

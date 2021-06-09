@@ -154,7 +154,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="col-lg-6 col-12 qwerty">
-                    <img src={myImg} className="w-100 " alt=""/>
+                    <img src={myImg} className="w-100" height="540px" alt=""/>
                 </div>
                 <div className="col-12 carusel-one">
                     <div>
@@ -166,13 +166,13 @@ const About = () => {
                                 <img src={rasmTwo} onClick={changeImgTwo} alt=""/>
                             </div>
                             <div>
-                                <img src={rasmFive} onClick={changeImgFive} alt=""/>
+                                <img src={rasmFive} onClick={changeImgFive} width="540px" height="540px" alt=""/>
                             </div>
                             <div>
                                 <img src={rasmSix} onClick={changeImgSix} alt=""/>
                             </div>
                             <div>
-                                <img src={rasmSeven} onClick={changeImgSeven} alt=""/>
+                                <img src={rasmSeven} onClick={changeImgSeven} width="540px" height="540px" alt=""/>
                             </div>
                             <div>
                                 <img src={rasmEight} onClick={changeImgEight} alt=""/>
