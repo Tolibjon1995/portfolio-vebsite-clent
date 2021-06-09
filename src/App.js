@@ -11,6 +11,7 @@ function App() {
     <div>
       <BrowserRouter>
       <Navbars/>
+
       <Switch>
 
       <Route path='/' exact component={Homepage}/>
