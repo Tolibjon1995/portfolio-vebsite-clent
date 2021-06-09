@@ -9,8 +9,8 @@ import Navbars from "./components/Navbars";
 function App() {
   return (
     <div>
-    <Navbars/>
       <BrowserRouter>
+          <Navbars/>
 
       <Switch>
 
