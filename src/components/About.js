@@ -1,16 +1,16 @@
 import React, {Component, useState, useEffect} from 'react';
 import Slider from "react-slick";
 import './styles/about.scss'
-import rasm1 from "../images/rasm1.jpg"
-import rasm2 from "../images/rasm2.jpg"
-import rasm5 from "../images/rasm5.jpg"
-import rasm6 from "../images/rasm6.jpg"
-import rasm7 from "../images/rasm7.jpg"
-import rasm8 from "../images/rasm8.jpg"
-import rasm9 from "../images/rasm9.jpg"
-import rasm10 from "../images/rasm10.jpg"
-import rasm11 from "../images/rasm11.jpg"
-import myImage from "../images/my-image.jpg"
+import rasm1 from "../images/photo1.jpg"
+import rasm2 from "../images/photo2.jpg"
+import rasm5 from "../images/photo3.jpg"
+import rasm6 from "../images/photo4.jpg"
+import rasm7 from "../images/photo5.jpg"
+import rasm8 from "../images/photo5.jpg"
+
+import rasm10 from "../images/IMG_20210411_151456.jpg"
+import rasm11 from "../images/IMG_20210411_151016.jpg"
+import myImage from "../images/IMG_20210407_124823.jpg"
 
 const About = () => {
 
@@ -20,7 +20,7 @@ const About = () => {
     const [rasmSix, setRasmSix] = useState(rasm6);
     const [rasmSeven, setRasmSeven] = useState(rasm7);
     const [rasmEight, setRasmEight] = useState(rasm8);
-    const [rasmNine, setRasmNine] = useState(rasm9);
+
     const [rasmTen, setRasmTen] = useState(rasm10);
     const [rasmElenev, setRasmElenev] = useState(rasm11);
     const [myImg, setMyImg] = useState(myImage);
@@ -55,10 +55,7 @@ const About = () => {
         setMyImg(rasmEight)
     };
 
-    const changeImgNine = () => {
-        setRasmNine(myImg);
-        setMyImg(rasmNine)
-    };
+
 
     const changeImgTen = () => {
         setRasmTen(myImg);
@@ -76,8 +73,9 @@ const About = () => {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 5,
-        slidesToScroll: 2,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay:true,
         responsive: [
             {
                 breakpoint: 1024,
@@ -124,11 +122,10 @@ const About = () => {
         <div className="container">
             <div className="row">
                 <div className="col-lg-6 col-12 qwerty ">
-                    <h1>about.</h1>
-                    <h2>I'm a UI/UX product designer based in sunny Sydney, Australia.</h2>
+                    <h1>O'zim haqimda.</h1>
+                    <h2>Assalomu alaykum men front-end dasturchiman</h2>
                     <p>
-                        I enjoy turning complex problems into simple, beautiful and intuitive designs. When I'm not
-                        pushing pixels, you'll find me cooking, gardening or working out in the park.
+                    Menga murakkab muammolarni oddiy, chiroyli va intuitiv dizaynlarga aylantirish yoqadi.
                     </p>
                     <div className="technology d-flex justify-content-between">
                         <div className="img">
@@ -176,9 +173,6 @@ const About = () => {
                             </div>
                             <div>
                                 <img src={rasmEight} onClick={changeImgEight} alt=""/>
-                            </div>
-                            <div>
-                                <img src={rasmNine} onClick={changeImgNine} alt=""/>
                             </div>
                             <div>
                                 <img src={rasmTen} onClick={changeImgTen} alt=""/>

@@ -3,7 +3,9 @@ import './styles/home.scss'
 
 const Homepage = (props) => {
     const [coder, setcoder] = useState("<coder/>")
-    console.log(props);
+    const [propse, setprops] = useState(props.history)
+    
+    console.log(propse);
     return (
         <div>
             <div className="container">

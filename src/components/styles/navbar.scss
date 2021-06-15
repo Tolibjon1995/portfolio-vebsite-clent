@@ -20,6 +20,12 @@
         width: 50px !important;
     }
 }
+.navbar-toggler{
+    background-color: #f9fd04;
+    .navbar-toggler-icon{
+        background-color:  #f9fd04 !important;
+    } 
+}
 .nav-link{
     color: #e4e4e4 !important;
     font-size: 18px !important;
@@ -37,7 +43,7 @@
         background-color: yellow;
         transition: all 0.5s linear;
     }
-    &:hover{
+    &:hover, &.active{
         color:yellow !important;
         
         &::after{
@@ -45,19 +51,20 @@
         }
         
     }
-    &.active{
-        color:yellow !important;
+    // &.active{
+    //     color:yellow !important;
         
-        &::after{
-            width: 100%;
-        } 
-    }
+    //     &::after{
+    //         width: 100%;
+    //     } 
+    // }
 }
 .bir{
-    @media (max-width: 572px) {
+    @media (max-width: 992px) {
         display: none;
     }
 }
+
 .collapse,
 .collapsing {
     
@@ -66,7 +73,7 @@
 .navbar-toggler{
     display: none;
     
-    @media (max-width: 572px) {
+    @media (max-width: 992px) {
         display: block;
        
     }

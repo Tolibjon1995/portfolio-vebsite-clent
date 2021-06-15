@@ -16,16 +16,17 @@ const Portfolio = (props) => {
             <div className="col-lg-12 text-center">
                <div className="content_portfolio">
                <h1>
-                portfo<span>lio.</span>
+                PORTFO<span>LIO</span>
                 </h1>
                 <h4>
-                Check out some of my portfolios
+                Qilgan ishlarimdan namunalar
                 </h4>
                 <p>
-                I've worked at start-ups, tech companies and corporates on a range of different projects, including design systems, websites and apps.
-                </p>
-                <button type="button" className="btn btn-qora">Download Cv</button>
-                <button type="button" className="btn btn-sariq">Hire Me</button>
+                “Yaratuvchanlik – bu aqlning vaqtichog’lik qilishidir” 
+              </p>
+              <h6 className='text-end'>Albert Einshtein</h6>
+                <a href='https://hh.uz/resume/c59a57f4ff07f18f700039ed1f47784d4e3642' className="btn btn-qora" download>Cv Yuklash</a>
+                <a href='https://t.me/React_js_UZB' className="btn btn-sariq">Men bilan Bog'lanish</a>
               
                </div>
             </div>
@@ -71,62 +72,42 @@ const Portfolio = (props) => {
       <TabContent activeTab={activeTab}>
         <TabPane tabId="1">
           <Row>
-            <Col xl="3" lg="4" md="6" col="12">
-              <div className="card my-3">
-                  <img src="/img/pic-1.jpg" alt="" />
-                  <a href="https://t.me/baxtiyor9703" className="layer">
-                      <h3>Home page</h3>
-                      <span><GoSearch/></span>
-                  </a>
-              </div>
-            </Col>
-            <Col xl="3" lg="4" md="6" col="12">
-              <div className="card my-3">
-                  <img src="/img/pic-2.jpg" alt="" />
-                  <a href="https://t.me/baxtiyor9703" className="layer">
-                  <h3>Landing page</h3>
-                  <span><GoSearch/></span>
-                  </a>
-              </div>
-            </Col>
-            <Col xl="3" lg="4" md="6" col="12">
-              <div className="card my-3">
-                  <img src="/img/pic-3.jpg" alt="" />
-                  <a href="https://t.me/baxtiyor9703" className="layer">
-                  <h3>Shopping </h3>
-                  <span><GoSearch/></span>
-                  </a>
-              </div>
-            </Col>
-            <Col xl="3" lg="4" md="6" col="12">
-              <div className="card my-3">
-                  <img src="/img/pic-4.jpg" alt="" />
-                  <a href="https://t.me/baxtiyor9703" className="layer">
-                      <h3>Single page</h3>
-                     <span><GoSearch/></span>
-                    
-                  </a>
-              </div>
-            </Col>
-            <Col xl="3" lg="4" md="6" col="12">
-              <div className="card my-3">
-                  <img src="/img/pic-5.jpg" alt="" />
-                  <a href="https://t.me/baxtiyor9703" className="layer">
-                      <h3>Web design</h3>
-                  <span><GoSearch/></span>
-                  </a>
-              </div>
-            </Col>
-            <Col xl="3" lg="4" md="6" col="12">
-              <div className="card my-3">
-                  <img src="/img/pic-6.jpg" alt="" />
-                  <a href="https://t.me/baxtiyor9703" className="layer">
-                      <h3>Grafic design</h3>
-                     <span><GoSearch/></span>
-                  </a>
-              </div>
-            </Col>
-            
+          <Col xl="3" lg="4" md="6" col="12">
+          <div className="card my-3">
+              <img src="/img/pic-6.jpg" alt="" />
+              <a href="https://portfoliowebsite3.netlify.app/" className="layer">
+                  <h3>Jizzax Brower</h3>
+                 <span><GoSearch/></span>
+              </a>
+          </div>
+        </Col>
+        <Col xl="3" lg="4" md="6" col="12">
+          <div className="card my-3">
+              <img src="/img/pic-6.jpg" alt="" />
+              <a href="https://projectwebsite2.netlify.app/" className="layer">
+                  <h3>PDP Storm</h3>
+                 <span><GoSearch/></span>
+              </a>
+          </div>
+        </Col>
+        <Col xl="3" lg="4" md="6" col="12">
+          <div className="card my-3">
+              <img src="/img/pic-6.jpg" alt="" />
+              <a href="https://maxwayportfolio.netlify.app/" className="layer">
+                  <h3>Max-wey</h3>
+                 <span><GoSearch/></span>
+              </a>
+          </div>
+        </Col>
+        <Col xl="3" lg="4" md="6" col="12">
+        <div className="card my-3">
+            <img src="/img/pic-6.jpg" alt="" />
+            <a href="https://calculatorresponsive.netlify.app/" className="layer">
+                <h3>Calculyator</h3>
+               <span><GoSearch/></span>
+            </a>
+        </div>
+      </Col>   
           </Row>
         </TabPane>
         <TabPane tabId="2">
@@ -134,8 +115,8 @@ const Portfolio = (props) => {
           <Col xl="3" lg="4" md="6" col="12">
               <div className="card my-3">
                   <img src="/img/pic-6.jpg" alt="" />
-                  <a href="https://t.me/baxtiyor9703" className="layer">
-                      <h3>Grafic design</h3>
+                  <a href="https://portfoliowebsite3.netlify.app/" className="layer">
+                      <h3>Jizzax Brower</h3>
                      <span><GoSearch/></span>
                   </a>
               </div>
@@ -143,8 +124,8 @@ const Portfolio = (props) => {
             <Col xl="3" lg="4" md="6" col="12">
               <div className="card my-3">
                   <img src="/img/pic-6.jpg" alt="" />
-                  <a href="https://t.me/baxtiyor9703" className="layer">
-                      <h3>Grafic design</h3>
+                  <a href="https://projectwebsite2.netlify.app/" className="layer">
+                      <h3>PDP Storm</h3>
                      <span><GoSearch/></span>
                   </a>
               </div>
@@ -152,8 +133,8 @@ const Portfolio = (props) => {
             <Col xl="3" lg="4" md="6" col="12">
               <div className="card my-3">
                   <img src="/img/pic-6.jpg" alt="" />
-                  <a href="https://t.me/baxtiyor9703" className="layer">
-                      <h3>Grafic design</h3>
+                  <a href="https://maxwayportfolio.netlify.app/" className="layer">
+                      <h3>Max-wey</h3>
                      <span><GoSearch/></span>
                   </a>
               </div>
@@ -166,36 +147,17 @@ const Portfolio = (props) => {
           <Col xl="3" lg="4" md="6" col="12">
               <div className="card my-3">
                   <img src="/img/pic-6.jpg" alt="" />
-                  <a href="https://t.me/baxtiyor9703" className="layer">
-                      <h3>Grafic design</h3>
+                  <a href="https://calculatorresponsive.netlify.app/" className="layer">
+                      <h3>Calculyator</h3>
                      <span><GoSearch/></span>
                   </a>
               </div>
-            </Col>
-            <Col xl="3" lg="4" md="6" col="12">
-              <div className="card my-3">
-                  <img src="/img/pic-6.jpg" alt="" />
-                  <a href="https://t.me/baxtiyor9703" className="layer">
-                      <h3>Grafic design</h3>
-                     <span><GoSearch/></span>
-                  </a>
-              </div>
-            </Col>
-           
-           
+            </Col>           
           </Row>
         </TabPane>
         <TabPane tabId="4">
           <Row>
-          <Col xl="3" lg="4" md="6" col="12">
-              <div className="card my-3">
-                  <img src="/img/pic-6.jpg" alt="" />
-                  <a href="https://t.me/baxtiyor9703" className="layer">
-                      <h3>Grafic design</h3>
-                     <span><GoSearch/></span>
-                  </a>
-              </div>
-            </Col>
+          <h1>yaqin kunlarda insha allox</h1>
            
           </Row>
         </TabPane>
